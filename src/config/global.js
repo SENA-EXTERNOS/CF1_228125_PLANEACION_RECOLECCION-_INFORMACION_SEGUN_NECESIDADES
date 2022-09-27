@@ -4,7 +4,7 @@ export default {
       'Planeación y recolección de información según necesidades',
     descripcionCurso:
       'La fase planeación y recolección determina las fuentes de donde se va a obtener la información, dónde se localizan esas fuentes; define los medios y procedimientos que se van a usar para obtener los datos y cómo se van acondicionar para que puedan analizarse y respondan a las preguntas de la investigación.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal3.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
