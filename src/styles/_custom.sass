@@ -17,3 +17,38 @@
 
   100%
     transform: translateY(0px)
+
+
+.lista-ul li>i:first-of-type
+  color: $color-primario
+
+.lista-ul li > i
+  font-size: 1.4rem
+
+
+.bg_img_01, .bg_img_02, .bg_img_03, .bg_img_04, .bg_img_05, .bg_gray, .bg_grad_01, .bg_grad_02, .bg_grad_03, .bg_grad_04, .bg_grad_05
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: - 3rem
+    width: calc( 100% + 6rem )
+    height: 100%
+
+.bg_img_01
+  &::before
+    background-color: rgba(173,217,252,.3)
+
+
+.linea-tiempo-d .tarjeta--gris
+  background-color: #fff
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: rgba(19, 138, 248, .25)
+
+.linea-tiempo-d__item--selected
+  .tarjeta--gris
+    background-color: rgba(19, 138, 248, .25) !important
