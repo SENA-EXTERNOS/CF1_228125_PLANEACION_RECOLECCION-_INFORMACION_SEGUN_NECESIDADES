@@ -1,7 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo:
+      'Planeación y recolección de información según necesidades',
+    descripcionCurso:
+      'La fase planeación y recolección determina las fuentes de donde se va a obtener la información, dónde se localizan esas fuentes; define los medios y procedimientos que se van a usar para obtener los datos y cómo se van acondicionar para que puedan analizarse y respondan a las preguntas de la investigación.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -32,30 +34,28 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Datos, información y sistemas de información',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Técnicas de recolección de información y software ',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Elicitación de requisitos ',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Herramientas de modelado',
         desarrolloContenidos: true,
       },
     ],
@@ -101,31 +101,51 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Elicitación de requisitos',
+      referencia:
+        'Fatto Consultoría y Sistemas. (2019). Elicitación de requisitos (video). YouTube. https://www.youtube.com/watch?v=OqcCdcle_Rs',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=OqcCdcle_Rs ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Herramientas de modelado',
+      referencia:
+        'UCAM Universidad Católica de Murcia. (2013). Ingeniería del Software II - Introducción al modelado del software (video). YouTube. https://www.youtube.com/watch?v=jDaEx7OCztY',
+      tipo: 'Video',
+      descarga: 'https://www.youtube.com/watch?v=jDaEx7OCztY',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: '<em>Elicitación</em>',
+      significado:
+        'Término asociado a la psicología que se refiere al traspaso de información de forma fluida de un ser humano a otro por medio del lenguaje.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Full stack',
+      significado:
+        'Persona responsable de la creación y el mantenimiento de una aplicación web. Por este motivo, es importante que el Full stack tenga conocimientos de desarrollo Front-End y Back-End.',
+    },
+    {
+      termino: 'Stakeholder',
+      significado:
+        'Aquellos individuos o grupos que tienen interés e impacto en una organización y en los resultados de sus acciones. Algunos de los ejemplos más comunes de stakeholders son los empleados, los accionistas, los clientes.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Aigneren, M. (2009). La técnica de recolección de información mediante grupos focales. La Sociología En Sus Escenarios, (6).',
+      link: 'https://revistas.udea.edu.co/index.php/ceo/article/view/161 ',
+    },
+    {
+      referencia:
+        'López Álvarez, D. M. (2020). Método para el desarrollo de software seguro basado en la ingeniería de software y ciberseguridad. INNOVA Research Journal, 5(3.1), 263-280. ',
+      link: 'https://doi.org/10.33890/innova.v5.n3.1.2020.1440 ',
+    },
+    {
+      referencia:
+        'R. H. Thayer. (1997). Software Requirements Engineering. Wiley-IEEE Computer Society Press.',
       link: '',
     },
   ],
