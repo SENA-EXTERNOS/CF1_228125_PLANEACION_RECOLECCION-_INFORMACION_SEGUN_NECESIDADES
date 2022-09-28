@@ -17,7 +17,7 @@
       p El modelo de requisitos y el modelo de casos de uso son la base para los demás modelos. Presentan los siguientes tipos:
       .row.py-5.justify-content-center.align-items-center
         .col-lg-8
-          LineaTiempoD.color-primario
+          LineaTiempoD.color-acento-contenido
             .row(numero="1" titulo="Requisitos")
               .col.mb-4.mb-md-0
                 p.text-small El modelo de casos de uso sirve para formular el modelo de requisitos, el cual se desarrolla en conjunto con otros modelos, como se verá más adelante.
@@ -51,6 +51,26 @@
     separador
     .titulo-segundo.color-acento-botones
       h2 Historias de usuario
+
+    
+    .bloque-texto-g__texto.color-secundario.p-4
+      p.mb-3 Una historia de usuario es una definición breve, informal y en lenguaje sencillo de lo que un usuario quiere hacer dentro de un producto de software para conseguir algo que le resulte valioso.<br>Las historias de usuario suelen seguir el patrón rol – función - beneficio:
+      br
+      br
+
+      ul.lista-ul
+        li
+          i.fas.fa-caret-right.color-primario
+          | Cómo (tipo de usuario).
+        li
+          i.fas.fa-caret-right.color-primario
+          | Quiero (una acción).
+        li
+          i.fas.fa-caret-right.color-primario
+          | Para qué (un beneficio / valor).
+    .row.mb-4
+      p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
+        
 
 </template>
 
