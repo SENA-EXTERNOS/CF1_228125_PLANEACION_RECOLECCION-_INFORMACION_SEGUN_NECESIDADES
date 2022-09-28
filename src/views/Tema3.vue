@@ -24,9 +24,22 @@
     separador
     .titulo-segundo.color-acento-botones
       h2 Ingeniería de requisitos
-    .row.mb-4
-      p Es la ciencia y la disciplina que se ocupa de disponer y documentar los requisitos del software.
-      p A su vez, genera ciertas prácticas que se pueden regularizar en:
+    .row.py-4.justify-content-between.align-items-start
+      .col-lg-8
+        p Es la ciencia y la disciplina que se ocupa de disponer y documentar los requisitos del software.
+        p.mb-5 A su vez, genera ciertas prácticas que se pueden regularizar en:
+        TabsA.color-acento-botones
+          .tarjeta.p-4(titulo="Proyectos para actualizar<br>sistemas existentes")
+              h4 Proyectos para actualizar sistemas existentes
+              p En este caso los usuarios plantean nuevos requisitos en los<br>proyectos debido a nuevas funciones añadidas, a cambios en la<br>lógica de negocio o a defectos en el sistema antiguo, lo que hace<br>que cada vez sea más difícil colmar las necesidades de las<br>empresas.
+
+          .tarjeta.p-4(titulo="Proyectos para iniciar<br>un nuevo sistema")
+              h4 Proyectos para iniciar un nuevo sistema
+              p Por lo general se utiliza el método de encuesta con el objetivo de<br>lograr una mejor comprensión porque, tanto para los<br>desarrolladores como para el cliente, los requisitos del proyecto<br>son claros y existen pocos problemas o necesidades que<br>necesiten una comunicación más amplia de las partes. 
+      .col-lg-4
+          figure
+            img(src='@/assets/curso/temas/t3/img1.svg', alt="")
+
 </template>
 
 <script>
