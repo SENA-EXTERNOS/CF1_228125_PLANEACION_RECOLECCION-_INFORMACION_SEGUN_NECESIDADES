@@ -122,7 +122,7 @@
 
     p.my-5 Los tipos de participantes o roles en la ingeniería de requisitos suelen ser, principalmente:
 
-    ImagenInfografica.color-primario
+    ImagenInfografica.color-acento-botones
         template(v-slot:imagen)
             .row.justify-content-center.align-items-center
               .col-lg-6
