@@ -55,6 +55,12 @@
   &::before
     background-color: #EBFBF8
 
+.bg_img_03
+  &::before
+    background-image: url("../assets/curso/temas/t3/fondo.svg")
+    background-repeat: no-repeat
+    background-position: top right
+    background-size: cover
 
 .linea-tiempo-d .tarjeta--gris
   background-color: #fff
@@ -86,37 +92,45 @@ SlyderF.tarjeta.color-secundario
 .tarjeta-avatar-b__img
   min-width: 30%;
 
-.tarjeta-avatar-b.mb-5
-  width: 510px;
-  height: 230px;
+.tarjeta-avatar-b
+  width: 510px
+  height: 230px
   selection-font-color: #12263F
 
-.tarjeta.color-acento-botones.p4
+.tarjeta.color-acento-botones
   selection-font-color: #12263F
 
 .tarjeta-avatar
-  width: 325px;
-  height: 520px;
+  width: 325px
+  height: 520px
 
-TabsA.color-acento-botones.tarjeta.p-4.mb-3
-  width: 325px;
+TabsA.color-acento-botones.tarjeta
+  width: 325px
 
-$fondos: #BFE0EF
 .color-azul
   color: #12263F !important
-.tarjeta.color-acento-contenido.p-3
-  height: 150px;
-
-.tarjeta.tarjeta-slide.izquierda.color-acento-contenido
-  width: 300px;
-  height: 450px;
 
 .img-infografica__card .img-infografica__card--selected
-  margin: auto;
-  
-.img-infografica.img
-  justify-content: center;
-  align-items: center;
+  margin: auto
 
-.tarjeta.color-acento-botones
-  
+.img-infografica.img
+  justify-content: center
+  align-items: center
+
+.cust
+  position: relative
+  z-index: 999
+
+
+@media (min-width: 1200px)
+  .cust
+    max-width: 900px
+    width: 820px
+    margin-left: -25%
+
+.crd
+  width: 100%
+  padding: 1.5rem
+
+.crd--blue
+  background-color: #0D4AAD

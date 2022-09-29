@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Elicitación de requisitos 
+      h1 Elicitación de requisitos
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/inicio3.png')})`}"
@@ -35,78 +35,92 @@
 
           .tarjeta.color-acento-botones.p-4(titulo="Proyectos para<br>iniciar un<br>nuevo sistema")
               h4 Proyectos para iniciar un nuevo sistema
-              p Por lo general se utiliza el método de encuesta con el objetivo de<br>lograr una mejor comprensión porque, tanto para los<br>desarrolladores como para el cliente, los requisitos del proyecto<br>son claros y existen pocos problemas o necesidades que<br>necesiten una comunicación más amplia de las partes. 
+              p Por lo general se utiliza el método de encuesta con el objetivo de<br>lograr una mejor comprensión porque, tanto para los<br>desarrolladores como para el cliente, los requisitos del proyecto<br>son claros y existen pocos problemas o necesidades que<br>necesiten una comunicación más amplia de las partes.
       .col-lg-4
           figure
             img(src='@/assets/curso/temas/t3/img1.svg', alt="")
 
 
+    .bg_img_03.mb-5
+      .row.justify-content-center
+        .col-xl-5.d-none.d-xl-block
+          figure
+            img(src='@/assets/curso/temas/t3/personaje.png', alt="")
+        .col-xl-7
+
+          .mt-5.pt-5.px-5
+            .row
+              .col-12.cust
+                .crd.crd--blue.mb-4
+                  p.mb-0.text-white El "método de la encuesta" se refiere a una forma de solicitar requisitos en la que el desarrollador utiliza un cuestionario que envía a los usuarios para lograr una comprensión completa del proyecto con base en sus demandas individuales o problemas, requisitos necesarios para definirlas con mayor precisión.
+
+            p.mb-4 Todo proyecto comprende actividades para el levantamiento, gestión y análisis de los requerimientos que solicitan los clientes y otros interesados. Proporcionar respuestas efectivas a esos requerimientos es indispensable para el éxito.
+
+            p Uno de los estándares internacionales de mayor reconocimiento en la práctica de análisis de negocio y gestión de requisitos los divide de la siguiente manera:
 
 
 
+    #TarjetasIngReq
+      .row.justify-content-center
+        .col-sm-10.col-xl-3.col-md-6.my-3
+          .tarjeta.tarjeta-slide.izquierda.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__img.text-center
+                figure
+                  img(src='@/assets/curso/temas/t3/negocio.svg', alt="")
+                h4.mt-4.text-center.px-4 Requerimientos de negocio
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4 Requerimientos de negocio:
+                p Comprenden los objetivos, las metas y resultados esperados que especifiquen por qué la iniciativa de cambio (el proyecto) se está desarrollando. Pueden aplicar a toda una empresa.
+
+        .col-sm-10.col-xl-3.col-md-6.my-3
+          .tarjeta.tarjeta-slide.izquierda.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__img
+                figure
+                  img(src='@/assets/curso/temas/t3/interesados.svg', alt="")
+                h4.mt-4.text-center.px-4 Requerimientos de los interesados
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4 Requerimientos de los interesados:
+                p Son todas las partes que tienen un interés en el proyecto. Pueden estar manifestando las distintas áreas de negocio que utiliza un sistema, otras áreas de negocio de soporte, inclusive, agentes externos como clientes o proveedores.
+
+        .col-sm-10.col-xl-3.col-md-6.my-3
+          .tarjeta.tarjeta-slide.izquierda.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__img
+                figure
+                  img(src='@/assets/curso/temas/t3/funcionales.svg', alt="")
+                h4.mt-4.text-center.px-4 Requerimientos funcionales
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4 Requerimientos funcionales:
+                p Describen las aptitudes que una solución debe tener. Se expresan en términos de la información que maneja y del comportamiento.
+
+      .row.justify-content-center
+        .col-sm-10.col-md-6.col-xl-3.my-3
+          .tarjeta.tarjeta-slide.izquierda.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__img
+                figure
+                  img(src='@/assets/curso/temas/t3/nofuncionales.svg', alt="")
+                h4.mt-4.text-center.px-4 Requerimientos no funcionales
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4 Requerimientos no funcionales:
+                p Describen las condiciones según las cuales la solución debe trabajar para mantenerse efectiva, así como los requerimientos de calidad que debe cumplir.
+
+        .col-sm-10.col-md-6.col-xl-3.my-3
+          .tarjeta.tarjeta-slide.izquierda.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__img
+                figure
+                  img(src='@/assets/curso/temas/t3/transicion.svg', alt="")
+                h4.mt-4.text-center.px-4 Requerimientos de transición
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4 Requerimientos de transición:
+                p Describen las condiciones y capacidades que debe cumplir la solución para facilitar la transformación entre la situación actual y la nueva, pero que ya no serán precisas una vez sea culminado el cambio.
 
 
 
-
-
-    .row.justify-content-center.mb-5  
-      .col-sm-6.col-xl-3
-        .tarjeta.tarjeta-slide.izquierda.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-          <br>
-            .tarjeta-slide__img.text-center
-              figure(style="margin-top: 50px")
-                img(src='@/assets/curso/temas/t3/negocio.svg', alt="")
-              h3.text-center Requerimientos de negocio
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h3 Requerimientos de negocio:
-              p Comprenden los objetivos, las metas y resultados esperados que especifiquen por qué la iniciativa de cambio (el proyecto) se está desarrollando. Pueden aplicar a toda una empresa. 
-      
-      .col-sm-6.col-xl-3
-        .tarjeta.tarjeta-slide.izquierda.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img
-              figure(style="margin-top: 50px")
-                img(src='@/assets/curso/temas/t3/interesados.svg', alt="")
-              h3.text-center Requerimientos de los interesados
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h3 Requerimientos de los interesados: 
-              p Son todas las partes que tienen un interés en el proyecto. Pueden estar manifestando las distintas áreas de negocio que utiliza un sistema, otras áreas de negocio de soporte, inclusive, agentes externos como clientes o proveedores. 
-      
-      .col-sm-6.col-xl-3
-        .tarjeta.tarjeta-slide.izquierda.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img
-              figure(style="margin-top: 50px")
-                img(src='@/assets/curso/temas/t3/funcionales.svg', alt="")
-              h3.text-center Requerimientos funcionales
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h3 Requerimientos funcionales: 
-              p Describen las aptitudes que una solución debe tener. Se expresan en términos de la información que maneja y del comportamiento.
-    .row.justify-content-center.mb-5  
-      .col-sm-6.col-xl-3
-        .tarjeta.tarjeta-slide.izquierda.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img
-              figure(style="margin-top: 50px")
-                img(src='@/assets/curso/temas/t3/nofuncionales.svg', alt="")
-              h3.text-center Requerimientos no funcionales
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h3 Requerimientos no funcionales: 
-              p Describen las condiciones según las cuales la solución debe trabajar para mantenerse efectiva, así como los requerimientos de calidad que debe cumplir.
-     
-      .col-sm-6.col-xl-3
-        .tarjeta.tarjeta-slide.izquierda.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img
-              figure(style="margin-top: 50px")
-                img(src='@/assets/curso/temas/t3/transicion.svg', alt="")
-              h3.text-center Requerimientos de transición
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h3 Requerimientos de transición:
-              p Describen las condiciones y capacidades que debe cumplir la solución para facilitar la transformación entre la situación actual y la nueva, pero que ya no serán precisas una vez sea culminado el cambio.
-    .row.mb-4
-      p Los tipos de participantes o roles en la ingeniería de requisitos suelen ser, principalmente:
+    p.my-5 Los tipos de participantes o roles en la ingeniería de requisitos suelen ser, principalmente:
 
     ImagenInfografica.color-primario
         template(v-slot:imagen)
@@ -125,7 +139,7 @@
 
         .tarjeta.color-acento-contenido.p-3(x="35%" y="87%" numero="4")
           p Lidera y coordina la identificación de requisitos y el modelamiento de casos de uso esbozando las funcionalidades y delimitando el sistema.
-        
+
         .tarjeta.color-acento-contenido.p-3(x="26%" y="47%" numero="5 ")
           p Es el usuario potencial del software a desarrollar en el proyecto y tiene una visión detallada, aunque puede que parcial, del modelo de negocio.
 
@@ -151,4 +165,15 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.tarjeta-slide
+  height: 390px
+
+.tarjeta-slide__img figure
+  display: flex
+  justify-content: center
+  margin-top: 100px
+
+  img
+    max-height: 160px
+</style>
