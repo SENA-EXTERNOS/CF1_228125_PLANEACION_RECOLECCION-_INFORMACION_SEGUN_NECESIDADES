@@ -53,23 +53,36 @@
       h2 Historias de usuario
 
     
-    .bloque-texto-g__texto.color-secundario.p-4
-      p.mb-3 Una historia de usuario es una definición breve, informal y en lenguaje sencillo de lo que un usuario quiere hacer dentro de un producto de software para conseguir algo que le resulte valioso.<br>Las historias de usuario suelen seguir el patrón rol – función - beneficio:
-      br
-      br
+    .bg_img_03.mb-5
+      .row.justify-content-center
+        .col-xl-5.d-none.d-xl-block
+          figure
+            img(src='@/assets/curso/temas/t4/personaje.png', alt="")
+        .col-xl-7
 
-      ul.lista-ul
-        li
-          i.fas.fa-caret-right.color-primario
-          | Cómo (tipo de usuario).
-        li
-          i.fas.fa-caret-right.color-primario
-          | Quiero (una acción).
-        li
-          i.fas.fa-caret-right.color-primario
-          | Para qué (un beneficio / valor).
-    .row.mb-4
-      p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
+          .mt-5.pt-5.px-5
+            .row
+              .col-12.cust
+                .crd.crd--blue.mb-4
+                  p.mb-0.text-white Una historia de usuario es una definición breve, informal y en lenguaje sencillo de lo que un usuario quiere hacer dentro de un producto de software para conseguir algo que le resulte valioso.<br><br>Las historias de usuario suelen seguir el patrón rol – función - beneficio:
+                  br
+                  
+                  ul.lista-ul.mb-4
+                    li
+                      i.fas.fa-caret-right.color-primario
+                      p.mb-0.text-white Cómo (tipo de usuario).
+
+                    li
+                      i.fas.fa-caret-right.color-primario
+                      p.mb-0.text-white Quiero (una acción).
+
+                    li
+                      i.fas.fa-caret-right.color-primario
+                      p.mb-0.text-white Para qué (un beneficio / valor).
+
+
+
+    p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
         
 
 </template>
