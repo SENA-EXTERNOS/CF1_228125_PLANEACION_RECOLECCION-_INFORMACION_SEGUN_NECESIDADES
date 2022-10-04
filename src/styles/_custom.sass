@@ -1,21 +1,22 @@
 .banner-principal-decorativo
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
+    position: fixed
     top: 15%
     left: -20%
   &-2
     animation: float2 3.0s ease-in-out infinite alternate
     position: absolute
+    z-index: -1
     top: 40%
     right: 30%
 
-.imagenBannerPrincipal
-  top: 40%
-  right: 30%
+.banner-principal .tarjeta
+  z-index: -2
 
 .banner-principal__img img
-  max-width: 280px
+  max-width: 300px
+  z-index: 1
 
 @keyframes float1
   0%
