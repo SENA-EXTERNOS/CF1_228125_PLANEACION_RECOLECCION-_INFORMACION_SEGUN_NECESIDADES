@@ -9,8 +9,8 @@
           figure
             img(src="@/assets/template/actividad.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
-          h2 Nombre de la actividad
+        .titulo-segundo.color-acento-botones
+          h2 Selección múltiple
         p.mb-4 A continuación, encontrará una serie de preguntas que le ayudarán a identificar si la temática estudiada fue comprendida en su totalidad o si se necesita reforzar un concepto en particular.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

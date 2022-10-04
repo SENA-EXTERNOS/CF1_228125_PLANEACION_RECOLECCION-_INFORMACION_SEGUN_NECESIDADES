@@ -19,7 +19,7 @@
         p Se puede decir que las técnicas de recolección de información se categorizan en:
 
     .row.justify-content-center.align-items-start.mb-6
-      .col-lg-6
+      .col-xl-6.col-md-6.my-3
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/t2/cuali.svg' alt='AvatarTop')
@@ -28,14 +28,14 @@
               h2.color-azul Cualitativas
               p.color-azul Constan de un alto grado de comprensión de la información, pero no se pueden generalizar los resultados. Lo  importante es cada respuesta individual y el nivel de profundidad que permiten alcanzar.
 
-      .col-lg-6
+      .col-xl-6.col-md-6.my-3
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/t2/cuanti.svg' alt='AvatarTop')
           .tarjeta.color-acento-botones
             .p-4
               h2.color-azul Cuantitativas
-              p.color-azul Implican el análisis de volúmenes altos de números o cifras recolectadas de muestras representativas, lo cual permite que los resultados sean generalizables.
+              p.color-azul Implican el análisis de volúmenes altos de números o cifras recolectadas de muestras representativas, lo cual permite que los resultados sean generalizables.<br><br>
     
     separador
 
@@ -45,31 +45,32 @@
       p La elección de los tipos de técnicas e instrumentos por parte del investigador dependerá de su finalidad, así como de su disponibilidad, coste, fiabilidad y aplicabilidad. Es importante tener en cuenta cómo puede utilizarse cada técnica o instrumento para obtener los resultados más propicios y así responder a los objetivos planteados en la investigación.
     
     .bg_img_02
-      SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/t2/metodo.svg' alt='AvatarTop')
-          .tarjeta.color-secundario
-            .text-white.p-4.p-xl-5
-              h3.text-center Método de observación
-              p.text-center Son registros tomados que no requieren participación. Estos registros se hacen mientras los implicados están involucrados en conductas rutinarias; se utilizan como un indicador de lo que los participantes hacen. Un ejemplo sería un investigador que observa cómo se comportan los químicos al revolverlos.
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/t2/grupo.svg' alt='AvatarTop')
-          .tarjeta.color-secundario
-            .text-white.p-4.p-xl-5
-              h3.text-center Cuestionario o encuesta
-              p.text-center Consiste en obtener datos directamente de un grupo de participantes de un estudio que cumplan ciertas características con el fin de conseguir sus opiniones o sugerencias. Para lograr los resultados deseados es importante tener claros los objetivos de la investigación. 
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/t2/cuestionario.svg' alt='AvatarTop')
-          .tarjeta.color-secundario
-            .text-white.p-4.p-xl-5
-              h3.text-center Grupo focal
-              p.text-center Es un método cualitativo consistente en realizar una reunión donde un grupo de participantes de estudio pueda opinar y resolver un tema específico. Es necesario un moderador experto en el tema.
-        .tarjeta-avatar
-          img(src='@/assets/curso/temas/t2/entrevista.svg' alt='AvatarTop')
-          .tarjeta.color-secundario
-            .text-white.p-4.p-xl-5
-              h3.text-center Entrevista
-              p.text-center Consiste en recopilar la información formulando preguntas sobre un participante. A través de la comunicación interpersonal el entrevistador obtiene respuestas verbales del participante sobre un tema o problema específico.
+      .row.justify-content-center
+        SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/t2/metodo.svg' alt='AvatarTop')
+            .tarjeta.color-secundario
+              .text-white.p-4.p-xl-5
+                h3.text-center Método de observación
+                p.text-center Son registros tomados que no requieren participación. Estos registros se hacen mientras los implicados están involucrados en conductas rutinarias; se utilizan como un indicador de lo que los participantes hacen. Un ejemplo sería un investigador que observa cómo se comportan los químicos al revolverlos.
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/t2/grupo.svg' alt='AvatarTop')
+            .tarjeta.color-secundario
+              .text-white.p-4.p-xl-5
+                h3.text-center Cuestionario o encuesta
+                p.text-center Consiste en obtener datos directamente de un grupo de participantes de un estudio que cumplan ciertas características con el fin de conseguir sus opiniones o sugerencias. Para lograr los resultados deseados es importante tener claros los objetivos de la investigación.<br><br><br> 
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/t2/cuestionario.svg' alt='AvatarTop')
+            .tarjeta.color-secundario
+              .text-white.p-4.p-xl-5
+                h3.text-center Grupo focal
+                p.text-center Es un método cualitativo consistente en realizar una reunión donde un grupo de participantes de estudio pueda opinar y resolver un tema específico. Es necesario un moderador experto en el tema.<br><br><br><br><br>
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/t2/entrevista.svg' alt='AvatarTop')
+            .tarjeta.color-secundario
+              .text-white.p-4.p-xl-5
+                h3.text-center Entrevista
+                p.text-center Consiste en recopilar la información formulando preguntas sobre un participante. A través de la comunicación interpersonal el entrevistador obtiene respuestas verbales del participante sobre un tema o problema específico.<br><br><br><br>
 
       separador
       .titulo-segundo.color-acento-botones
