@@ -11,7 +11,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/inicio3.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-4 Es la base primordial en el desarrollo de proyectos software y la encargada de proporcionar el impacto más alto en el diseño y en las demás fases del ciclo de vida del producto.Esta metodología se basa en la creación de dos tipo de productos:
+        p.mb-4 Es la base primordial en el desarrollo de proyectos <em class="emphasized">software</em> y la encargada de proporcionar el impacto más alto en el diseño y en las demás fases del ciclo de vida del producto.Esta metodología se basa en la creación de dos tipo de productos:
         br
         br
         ul.lista-ul
@@ -26,7 +26,7 @@
       h2 Ingeniería de requisitos
     .row.py-4.justify-content-between.align-items-start
       .col-lg-8
-        p Es la ciencia y la disciplina que se ocupa de disponer y documentar los requisitos del software.
+        p Es la ciencia y la disciplina que se ocupa de disponer y documentar los requisitos del <em class="emphasized">software</em>.
         p.mb-5 A su vez, genera ciertas prácticas que se pueden regularizar en:
         TabsA.color-acento-botones
           .tarjeta.p-4(titulo="Proyectos para<br>actualizar sistemas<br>existentes")
@@ -141,7 +141,7 @@
           p Lidera y coordina la identificación de requisitos y el modelamiento de casos de uso esbozando las funcionalidades y delimitando el sistema.
 
         .tarjeta.color-acento-contenido.p-3(x="26%" y="47%" numero="5 ")
-          p Es el usuario potencial del software a desarrollar en el proyecto y tiene una visión detallada, aunque puede que parcial, del modelo de negocio.
+          p Es el usuario potencial del <em class="emphasized">software</em> a desarrollar en el proyecto y tiene una visión detallada, aunque puede que parcial, del modelo de negocio.
 
         .tarjeta.color-acento-contenido.p-3(x="37%" y="7%" numero="6 ")
           p Cualquier persona que tenga influencia directa o indirecta sobre los requisitos del sistema. Ejemplo: usuarios finales.

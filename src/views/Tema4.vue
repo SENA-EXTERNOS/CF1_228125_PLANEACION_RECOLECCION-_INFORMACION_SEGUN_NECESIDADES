@@ -47,7 +47,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-8
         .cajon.color-acento-botones.p-4
-            p A medida que pasa el tiempo se logra comprender que el empleo del software es una buena opción para agilizar y sistematizar las actividades en el desarrollo de procesos. El desarrollo de software no es la excepción, en este caso dichos componentes se han denominado CASE (Computer Aided Software Engineering o Ingeniería de Software Asistida por Computador). Estas incluyen un grupo de programas que facilita la optimización de un producto y ofrece apoyo permanente a los desarrolladores, ingenieros de software y analistas. CASE es la aplicación de métodos y técnicas que dan provecho a los programas por medio de su respectiva documentación y otros procedimientos.
+            p A medida que pasa el tiempo se logra comprender que el empleo del <em class="emphasized">software</em> es una buena opción para agilizar y sistematizar las actividades en el desarrollo de procesos. El desarrollo de <em class="emphasized">software</em> no es la excepción, en este caso dichos componentes se han denominado CASE <em class="emphasized">(Computer Aided Software Engineering o Ingeniería de Software Asistida por Computador)</em>. Estas incluyen un grupo de programas que facilita la optimización de un producto y ofrece apoyo permanente a los desarrolladores, ingenieros de <em class="emphasized">software</em> y analistas. CASE es la aplicación de métodos y técnicas que dan provecho a los programas por medio de su respectiva documentación y otros procedimientos.
     separador
     .titulo-segundo.color-acento-botones
       h2 Historias de usuario
@@ -64,7 +64,7 @@
             .row
               .col-12.cust
                 .crd.crd--blue.mb-4
-                  p.mb-0.text-white Una historia de usuario es una definición breve, informal y en lenguaje sencillo de lo que un usuario quiere hacer dentro de un producto de software para conseguir algo que le resulte valioso.<br><br>Las historias de usuario suelen seguir el patrón rol – función - beneficio:
+                  p.mb-0.text-white Una historia de usuario es una definición breve, informal y en lenguaje sencillo de lo que un usuario quiere hacer dentro de un producto de <em class="emphasized">software</em> para conseguir algo que le resulte valioso.<br><br>Las historias de usuario suelen seguir el patrón rol – función - beneficio:
                   br
                   
                   ul.lista-ul.mb-4

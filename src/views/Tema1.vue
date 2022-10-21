@@ -13,7 +13,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/t1/img1.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-3 En el proceso de desarrollo de software los datos se crean, recogen y utilizan en cada paso, pero se puede definir como cualquier cosa susceptible de medirse, registrarse u observarse. Es cualquier pieza de información que puede cuantificarse y ponerse de forma que un ordenador pueda entender. Los datos son:
+        p.mb-3 En el proceso de desarrollo de <em class="emphasized">software</em> los datos se crean, recogen y utilizan en cada paso, pero se puede definir como cualquier cosa susceptible de medirse, registrarse u observarse. Es cualquier pieza de información que puede cuantificarse y ponerse de forma que un ordenador pueda entender. Los datos son:
         br
         br
 
@@ -36,7 +36,7 @@
     .row.justify-content-between.align-items-start.mb-5
       .col-lg-6
 
-        p.mb-4 Es un término amplio que se refiere a la transformación de datos de una forma a otra.                             Es un componente clave de casi todos los proyectos de desarrollo de software.
+        p.mb-4 Es un término amplio que se refiere a la transformación de datos de una forma a otra.                             Es un componente clave de casi todos los proyectos de desarrollo de <em class="emphasized">software</em> .
 
         p.mb-4 Los datos pueden transformarse de muchas maneras, por ejemplo:
 
@@ -54,7 +54,7 @@
             | Agregándoles desde diferentes fuentes, o modelándolos para adaptarlos a una necesidad concreta.
 
 
-        p.mb-4 El procesamiento de datos es una parte esencial de cualquier proyecto de desarrollo de software y cuenta con ciertas actividades que lo normalizan.
+        p.mb-4 El procesamiento de datos es una parte esencial de cualquier proyecto de desarrollo de <em class="emphasized">software</em> y cuenta con ciertas actividades que lo normalizan.
 
         .cajon.color-acento-contenido.p-4
           p Estas actividades permiten culminar su proceso de forma satisfactoria.<br> A continuación se presentan cada una de ellas.
