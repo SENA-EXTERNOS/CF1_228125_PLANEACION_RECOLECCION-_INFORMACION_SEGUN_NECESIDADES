@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Técnicas de recolección de información y software 
+      h1 Técnicas de recolección de información y <em class="emphasized">software</em> 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/inicio2.png')})`}"
@@ -74,13 +74,13 @@
 
       separador
       .titulo-segundo.color-acento-botones
-        h2 <em class="emphasized">software</em>
+        h2 <em class="emphasized">Software</em>
       .row.mb-4
         p Para comprender un poco más sobre el proceso de recolección de información, visto desde el área de desarrollo de <em class="emphasized">software</em>, es necesario entender qué es un <em class="emphasized">software</em> y cuál es su aporte a la tecnología. El  tema se explica en el siguiente video:
       figure
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video: Leyenda del video
+          iframe(width="560" height="315" src="https://youtu.be/C1aR6uptfLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 
 
 </template>

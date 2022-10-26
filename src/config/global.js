@@ -41,7 +41,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Técnicas de recolección de información y software ',
+        titulo: 'Técnicas de recolección de información y <i>software</i> ',
         desarrolloContenidos: true,
       },
       {
@@ -122,12 +122,12 @@ export default {
         'Término asociado a la psicología que se refiere al traspaso de información de forma fluida de un ser humano a otro por medio del lenguaje.',
     },
     {
-      termino: 'Full stack',
+      termino: '<em>Full stack</em>',
       significado:
         'Persona responsable de la creación y el mantenimiento de una aplicación web. Por este motivo, es importante que el Full stack tenga conocimientos de desarrollo Front-End y Back-End.',
     },
     {
-      termino: 'Stakeholder',
+      termino: '<em>Stakeholder</em>',
       significado:
         'Aquellos individuos o grupos que tienen interés e impacto en una organización y en los resultados de sus acciones. Algunos de los ejemplos más comunes de stakeholders son los empleados, los accionistas, los clientes.',
     },
@@ -136,7 +136,7 @@ export default {
     {
       referencia:
         'Aigneren, M. (2009). La técnica de recolección de información mediante grupos focales. La Sociología En Sus Escenarios, (6).',
-      link: 'https://revistas.udea.edu.co/index.php/ceo/article/view/161 ',
+      link: 'https://revistas.udea.edu.co/index.php/ceo/article/view/161',
     },
     {
       referencia:
