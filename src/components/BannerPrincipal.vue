@@ -12,7 +12,7 @@
         .banner-principal__accion
           a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Iniciar
-            i.fas.fa-angle-right
+                i.fas.fa-angle-right
 
       .d-none.d-lg-block.col-lg-4.px-0.banner-principal__img
         img(:src="globalData.imagenBannerPrincipal")
