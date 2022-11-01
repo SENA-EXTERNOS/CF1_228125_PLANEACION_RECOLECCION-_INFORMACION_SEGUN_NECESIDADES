@@ -36,7 +36,7 @@
     .row.justify-content-between.align-items-start.mb-5
       .col-lg-6
 
-        p.mb-4 Es un término amplio que se refiere a la transformación de datos de una forma a otra. Es un componente clave de casi todos los proyectos de desarrollo de <em class="emphasized">software</em> .
+        p.mb-4 Es un término amplio que se refiere a la transformación de datos de una forma a otra. Es un componente clave de casi todos los proyectos de desarrollo de <em class="emphasized">software</em>.
 
         p.mb-4 Los datos pueden transformarse de muchas maneras, por ejemplo:
 

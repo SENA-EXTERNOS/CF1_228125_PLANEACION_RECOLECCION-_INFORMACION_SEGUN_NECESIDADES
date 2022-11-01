@@ -54,13 +54,13 @@
                 h3.text-center Método de observación
                 p.text-center Son registros tomados que no requieren participación. Estos registros se hacen mientras los implicados están involucrados en conductas rutinarias; se utilizan como un indicador de lo que los participantes hacen. Un ejemplo sería un investigador que observa cómo se comportan los químicos al revolverlos.
           .tarjeta-avatar
-            img(src='@/assets/curso/temas/t2/grupo.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/t2/cuestionario.svg' alt='AvatarTop')
             .tarjeta.color-secundario
               .text-white.p-4.p-xl-5
                 h3.text-center Cuestionario o encuesta
                 p.text-center Consiste en obtener datos directamente de un grupo de participantes de un estudio que cumplan ciertas características con el fin de conseguir sus opiniones o sugerencias. Para lograr los resultados deseados es importante tener claros los objetivos de la investigación.<br><br><br> 
           .tarjeta-avatar
-            img(src='@/assets/curso/temas/t2/cuestionario.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/t2/grupo.svg' alt='AvatarTop')
             .tarjeta.color-secundario
               .text-white.p-4.p-xl-5
                 h3.text-center Grupo focal

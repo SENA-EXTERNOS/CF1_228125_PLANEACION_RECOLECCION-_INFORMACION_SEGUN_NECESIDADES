@@ -117,7 +117,7 @@ export default {
   ],
   glosario: [
     {
-      termino: '<em>Elicitación</em>',
+      termino: 'Elicitación',
       significado:
         'Término asociado a la psicología que se refiere al traspaso de información de forma fluida de un ser humano a otro por medio del lenguaje.',
     },

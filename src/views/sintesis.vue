@@ -1,9 +1,17 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(icono="fas fa-sitemap" titulo="Síntesis: Planeación y recolección de información según necesidades.")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    .row
+      .rectangulo
+      .col-lg-10
+        h3 Desarrollo de aplicaciones web Full stack
+        p.mb-4 Síntesis: Planeación y recolección de información según necesidades.
+        br 
+        br
+        br
+        br
+
     p.mb-5 A continuación, se presenta de manera gráfica una síntesis sobre las temáticas estudiadas en el componente formativo.
 
     .row.justify-content-center
