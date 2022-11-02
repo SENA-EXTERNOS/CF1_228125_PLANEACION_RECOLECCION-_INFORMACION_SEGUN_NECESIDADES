@@ -124,12 +124,12 @@ export default {
     {
       termino: '<em>Full stack</em>',
       significado:
-        'Persona responsable de la creación y el mantenimiento de una aplicación web. Por este motivo, es importante que el Full stack tenga conocimientos de desarrollo Front-End y Back-End.',
+        'Persona responsable de la creación y el mantenimiento de una aplicación web. Por este motivo, es importante que el <em>Full stack</em> tenga conocimientos de desarrollo <em>Front-End</em> y <em>Back-End</em>.',
     },
     {
       termino: '<em>Stakeholder</em>',
       significado:
-        'Aquellos individuos o grupos que tienen interés e impacto en una organización y en los resultados de sus acciones. Algunos de los ejemplos más comunes de stakeholders son los empleados, los accionistas, los clientes.',
+        'Aquellos individuos o grupos que tienen interés e impacto en una organización y en los resultados de sus acciones. Algunos de los ejemplos más comunes de <em>stakeholders</em> son los empleados, los accionistas, los clientes.',
     },
   ],
   referencias: [
