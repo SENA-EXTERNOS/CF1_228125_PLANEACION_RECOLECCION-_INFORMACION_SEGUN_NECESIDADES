@@ -135,17 +135,17 @@ export default {
   referencias: [
     {
       referencia:
-        'Aigneren, M. (2009). La técnica de recolección de información mediante grupos focales. La Sociología En Sus Escenarios, (6).',
+        'Aigneren, M. (2009). La técnica de recolección de información mediante grupos focales. <em>La Sociología En Sus Escenarios</em>, (6). ',
       link: 'https://revistas.udea.edu.co/index.php/ceo/article/view/1611',
     },
     {
       referencia:
-        'López Álvarez, D. M. (2020). Método para el desarrollo de software seguro basado en la ingeniería de software y ciberseguridad. INNOVA Research Journal, 5(3.1), 263-280. ',
+        'López Álvarez, D. M. (2020). Método para el desarrollo de software seguro basado en la ingeniería de software y ciberseguridad. <em>INNOVA Research Journal</em>, 5(3.1), 263-280. ',
       link: 'https://doi.org/10.33890/innova.v5.n3.1.2020.1440 ',
     },
     {
       referencia:
-        'R. H. Thayer. (1997). Software Requirements Engineering. Wiley-IEEE Computer Society Press.',
+        'R. H. Thayer. (1997). <em>Software Requirements Engineering</em>. Wiley-IEEE Computer Society Press.',
       link: '',
     },
   ],

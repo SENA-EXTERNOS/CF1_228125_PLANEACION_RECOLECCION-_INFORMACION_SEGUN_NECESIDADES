@@ -29,7 +29,7 @@
       .col-lg-8
         p Es la ciencia y la disciplina que se ocupa de disponer y documentar los requisitos del <em class="emphasized">software</em>.
         p.mb-5 A su vez, genera ciertas prácticas que se pueden regularizar en:
-        TabsA.color-acento-botones
+        TabsA.color-acento-botones.tema-3
           .tarjeta.p-4(titulo="Proyectos para<br>actualizar sistemas<br>existentes")
               h4 Proyectos para actualizar sistemas existentes
               p En este caso los usuarios plantean nuevos requisitos en los<br>proyectos debido a nuevas funciones añadidas, a cambios en la<br>lógica de negocio o a defectos en el sistema antiguo, lo que hace<br>que cada vez sea más difícil colmar las necesidades de las<br>empresas.

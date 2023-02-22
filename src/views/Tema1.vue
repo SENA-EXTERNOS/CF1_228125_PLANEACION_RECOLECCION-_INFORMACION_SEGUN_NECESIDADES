@@ -43,7 +43,7 @@
 
           li
             i.fas.fa-caret-right.color-primario
-            | Agregándolos desde diferentes fuentes, o modelándolos para adaptarlos a una necesidad concreta.
+            | Añadiéndolos desde diferentes fuentes, o modelándolos para adaptarlos a una necesidad concreta.
 
 
         .cajon.color-acento-contenido.p-4

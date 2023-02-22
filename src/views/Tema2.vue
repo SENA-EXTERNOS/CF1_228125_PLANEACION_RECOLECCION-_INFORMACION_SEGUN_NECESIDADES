@@ -47,31 +47,31 @@
     
     .bg_img_02.mb-5
       .row.justify-content-center
-        SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+        SlyderF.mb-5(columnas="col-lg-6 col-xl-4 tema-2")
           .tarjeta-avatar
             img(src='@/assets/curso/temas/t2/metodo.svg' alt='AvatarTop')
             .tarjeta.color-secundario
-              .text-white.p-4.p-xl-5
+              .text-white.p-4.p-xl-4
                 h3.text-center Método de observación
                 p.text-center Se refiere a registros tomados que no requieren participación. Estos registros se llevan a cabo, mientras los implicados están involucrados en conductas rutinarias; se utilizan como un indicador de lo que los participantes hacen. Un ejemplo sería el de un investigador que observa cómo se comportan los químicos al revolverlos.
           .tarjeta-avatar
             img(src='@/assets/curso/temas/t2/cuestionario.svg' alt='AvatarTop')
             .tarjeta.color-secundario
-              .text-white.p-4.p-xl-5
+              .text-white.p-4.p-xl-4
                 h3.text-center Cuestionario o encuesta
-                p.text-center Consiste en obtener datos directamente de un grupo de participantes de un estudio, que cumplan con ciertas características, con la finalidad de obtener sus opiniones o sugerencias. Para lograr los resultados deseados, es importante tener claros los objetivos de la investigación.<br><br>
+                p.text-center Consiste en obtener datos directamente de un grupo de participantes de un estudio, que cumplan con ciertas características, con la finalidad de obtener sus opiniones o sugerencias. Para lograr los resultados deseados, es importante tener claros los objetivos de la investigación.
           .tarjeta-avatar
             img(src='@/assets/curso/temas/t2/grupo.svg' alt='AvatarTop')
             .tarjeta.color-secundario
-              .text-white.p-4.p-xl-5
+              .text-white.p-4.p-xl-4
                 h3.text-center Grupo focal
-                p.text-center Es un método cualitativo consistente en realizar una reunión donde un grupo de participantes de estudio pueda opinar y resolver un tema específico. Es necesario un moderador experto en el tema.<br><br><br><br><br>
+                p.text-center Es un método cualitativo consistente en realizar una reunión donde un grupo de participantes de estudio pueda opinar y resolver un tema específico. Es necesario un moderador experto en el tema.
           .tarjeta-avatar
             img(src='@/assets/curso/temas/t2/entrevista.svg' alt='AvatarTop')
             .tarjeta.color-secundario
-              .text-white.p-4.p-xl-5
+              .text-white.p-4.p-xl-4
                 h3.text-center Entrevista
-                p.text-center Consiste en recopilar la información, formulando preguntas sobre un participante. A través de la comunicación interpersonal, el entrevistador obtiene respuestas verbales, del participante, sobre un tema o un problema en específico.<br><br><br><br>
+                p.text-center Consiste en recopilar la información, formulando preguntas sobre un participante. A través de la comunicación interpersonal, el entrevistador obtiene respuestas verbales, del participante, sobre un tema o un problema en específico.
 
       
 

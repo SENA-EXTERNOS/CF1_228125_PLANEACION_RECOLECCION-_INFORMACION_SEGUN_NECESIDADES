@@ -48,7 +48,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .cajon.color-acento-botones.p-4
-            p.mb-0 A medida que pasa el tiempo, se logra comprender que el empleo del #[i software] es una buena opción para agilizar y sistematizar las actividades en el desarrollo de procesos. El desarrollo de software no es la excepción y, en este caso, dichos componentes se han denominado CASE (#[i Computer Aided Software Engineering] o Ingeniería de Software Asistida por Computador). Estos incluyen un grupo de programas que facilitan la optimización de un producto y ofrece apoyo permanente a los desarrolladores, ingenieros de #[i software] y analistas. CASE es la aplicación de métodos y técnicas que dan provecho a los programas, por medio de su respectiva documentación y otros procedimientos.
+            p.mb-0 A medida que pasa el tiempo, se logra comprender que el empleo del #[i software] es una buena opción para agilizar y sistematizar las actividades en el desarrollo de procesos. El desarrollo de #[i software] no es la excepción y, en este caso, dichos componentes se han denominado CASE (#[i Computer Aided Software Engineering] o Ingeniería de #[i Software] Asistida por Computador). Estos incluyen un grupo de programas que facilitan la optimización de un producto y ofrece apoyo permanente a los desarrolladores, ingenieros de #[i software] y analistas. CASE es la aplicación de métodos y técnicas que dan provecho a los programas, por medio de su respectiva documentación y otros procedimientos.
 
 
 
