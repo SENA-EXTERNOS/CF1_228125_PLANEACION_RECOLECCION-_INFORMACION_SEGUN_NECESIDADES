@@ -103,16 +103,16 @@ export default {
     {
       tema: 'Elicitación de requisitos',
       referencia:
-        'Fatto Consultoría y Sistemas. (2019). Elicitación de requisitos. YouTube. https://www.youtube.com/watch?v=OqcCdcle_Rs',
+        'Fatto Consultoría y Sistemas. (2019). <em>Elicitación de requisitos</em> (video). YouTube. ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=OqcCdcle_Rs ',
+      link: 'https://www.youtube.com/watch?v=OqcCdcle_Rs',
     },
     {
       tema: 'Herramientas de modelado',
       referencia:
-        'UCAM Universidad Católica de Murcia. (2013). Ingeniería del Software II - Introducción al modelado del software. YouTube. https://www.youtube.com/watch?v=jDaEx7OCztY',
+        'UCAM Universidad Católica de Murcia. (2013). <em>Ingeniería del Software II – Introducción al modelado del software</em> (video). YouTube. ',
       tipo: 'Video',
-      descarga: 'https://www.youtube.com/watch?v=jDaEx7OCztY',
+      link: 'https://www.youtube.com/watch?v=jDaEx7OCztY',
     },
   ],
   glosario: [

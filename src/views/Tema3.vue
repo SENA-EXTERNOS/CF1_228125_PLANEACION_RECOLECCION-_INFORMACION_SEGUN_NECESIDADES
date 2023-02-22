@@ -6,24 +6,25 @@
       .titulo-principal__numero
         span 3
       h1 Elicitación de requisitos
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/inicio3.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-4 Es la base primordial en el desarrollo de proyectos <em class="emphasized">software</em> y la encargada de proporcionar el impacto más alto en el diseño y en las demás fases del ciclo de vida del producto.Esta metodología se basa en la creación de dos tipo de productos:
+        p.mb-4 Se refiere a la base primordial en el desarrollo de proyectos #[i software], y la encargada de proporcionar el impacto más alto en el diseño y en las demás fases del ciclo de vida del producto. Esta metodología se fundamenta en la creación de dos tipos de productos:
         br
         br
         ul.lista-ul
           li
             i.fas.fa-caret-right.color-primario
-            | Los productos entregables: son los que se le hacen llegar de manera oficial al cliente luego de que se ha acordado una fecha.
+            p.mb-0 #[b Los productos entregables:] los productos entregables, son los que se hacen llegar, de manera oficial, al cliente, luego que una fecha ha sido acordada.
           li
             i.fas.fa-caret-right.color-primario
-            | Los productos no entregables: son los que se trabajan dentro del proceso de desarrollo y no se entregan al cliente.
-    separador
-    .titulo-segundo.color-acento-botones
-      h2 Ingeniería de requisitos
+            p.mb-0 #[b Los productos no entregables:] son los que se trabajan dentro del proceso de desarrollo y no se entregan al cliente.
+    
+    
+    h3 Ingeniería de requisitos
     .row.py-4.justify-content-between.align-items-start
       .col-lg-8
         p Es la ciencia y la disciplina que se ocupa de disponer y documentar los requisitos del <em class="emphasized">software</em>.
@@ -42,22 +43,23 @@
 
 
     .bg_img_03.mb-5
-      .row.justify-content-center
+      .row.justify-content-center.align-items-center
         .col-xl-5.d-none.d-xl-block
           figure
             img(src='@/assets/curso/temas/t3/personaje.png', alt="")
         .col-xl-7
-
           .mt-5.pt-5.px-5
             .row
-              .col-12.cust
+              .col-10.cust
                 .crd.crd--blue.mb-4
-                  p.mb-0.text-white El "método de la encuesta" se refiere a una forma de solicitar requisitos en la que el desarrollador utiliza un cuestionario que envía a los usuarios para lograr una comprensión completa del proyecto con base en sus demandas individuales o problemas, requisitos necesarios para definirlas con mayor precisión.
+                  p.mb-0.text-white El “método de la encuesta” se refiere a una forma de solicitar requisitos donde el desarrollador utiliza un cuestionario que envía a los usuarios, para lograr una comprensión completa del proyecto, con base en sus demandas individuales o situaciones problema, requisitos necesarios para definirlas con mayor precisión.
 
-            p.mb-4 Todo proyecto comprende actividades para el levantamiento, gestión y análisis de los requerimientos que solicitan los clientes y otros interesados. Proporcionar respuestas efectivas a esos requerimientos es indispensable para el éxito.
+            
+    h4 Tipos de requerimiento
 
-            p Uno de los estándares internacionales de mayor reconocimiento en la práctica de análisis de negocio y gestión de requisitos los divide de la siguiente manera:
+    p Todo proyecto comprende actividades para el levantamiento, gestión y análisis de los requerimientos que solicitan los clientes y otros interesados. Proporcionar respuestas efectivas a esos requerimientos es indispensable para el éxito.
 
+    p.mb-4 Uno de los estándares internacionales de mayor reconocimiento en la práctica de análisis de negocio y gestión de requisitos, los desglosa de la siguiente manera:
 
 
     #TarjetasIngReq

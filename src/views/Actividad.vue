@@ -9,9 +9,9 @@
           figure
             img(src="@/assets/template/actividad.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo.color-acento-botones
-          h2 Selección múltiple
-        p.mb-4 A continuación, encontrará una serie de preguntas que le ayudarán a identificar si la temática estudiada fue comprendida en su totalidad o si se necesita reforzar un concepto en particular.
+        .titulo-segundo.color-acento-contenido
+          h2 Planeación y recolección de información según necesidades.
+        p.mb-4 Apreciado aprendiz, a continuación, encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo:
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
