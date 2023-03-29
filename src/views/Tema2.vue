@@ -80,7 +80,7 @@
       p Para comprender un poco más sobre el proceso de recolección de información, visto desde el área de desarrollo de <em class="emphasized">software</em>, es necesario entender qué es un <em class="emphasized">software</em> y cuál es su aporte a la tecnología. El  tema se explica en el siguiente video:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/C1aR6uptfLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/XGSPIaLtJ-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
           
 
