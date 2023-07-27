@@ -7,7 +7,7 @@
         span 3
       h1 Elicitación de requisitos
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/inicio3.png')})`}"
       )
@@ -23,23 +23,21 @@
             i.fas.fa-caret-right.color-primario
             p.mb-0 #[b Los productos no entregables:] son los que se trabajan dentro del proceso de desarrollo y no se entregan al cliente.
     
-    
-    h3 Ingeniería de requisitos
+
     .row.py-4.justify-content-between.align-items-start
-      .col-lg-8
+      .col-lg-9.my-3
+        h3 Ingeniería de requisitos      
         p Es la ciencia y la disciplina que se ocupa de disponer y documentar los requisitos del <em class="emphasized">software</em>.
         p.mb-5 A su vez, genera ciertas prácticas que se pueden regularizar en:
-        TabsA.color-acento-botones.tema-3
-          .tarjeta.p-4(titulo="Proyectos para<br>actualizar sistemas<br>existentes")
-              h4 Proyectos para actualizar sistemas existentes
-              p En este caso los usuarios plantean nuevos requisitos en los<br>proyectos debido a nuevas funciones añadidas, a cambios en la<br>lógica de negocio o a defectos en el sistema antiguo, lo que hace<br>que cada vez sea más difícil colmar las necesidades de las<br>empresas.
+        TabsC.color-acento-botones.tema-3
+          .tarjeta.p-4(titulo="Proyectos para actualizar sistemas existentes")
+            p En este caso los usuarios plantean nuevos requisitos en los proyectos debido a nuevas funciones añadidas, a cambios en la lógica de negocio o a defectos en el sistema antiguo, lo que hace que cada vez sea más difícil colmar las necesidades de las empresas.
 
-          .tarjeta.color-acento-botones.p-4(titulo="Proyectos para<br>iniciar un<br>nuevo sistema")
-              h4 Proyectos para iniciar un nuevo sistema
-              p Por lo general se utiliza el método de encuesta con el objetivo de<br>lograr una mejor comprensión porque, tanto para los<br>desarrolladores como para el cliente, los requisitos del proyecto<br>son claros y existen pocos problemas o necesidades que<br>necesiten una comunicación más amplia de las partes.
-      .col-lg-4
+          .tarjeta.p-4(titulo="Proyectos para iniciar un nuevo sistema")
+            p Por lo general se utiliza el método de encuesta con el objetivo de lograr una mejor comprensión porque, tanto para los desarrolladores como para el cliente, los requisitos del proyecto son claros y existen pocos problemas o necesidades que necesiten una comunicación más amplia de las partes.
+      .col-lg-3.my-3
           figure
-            img(src='@/assets/curso/temas/t3/img1.svg', alt="")
+            img.img-w(src='@/assets/curso/temas/t3/img1.svg', alt="")
 
 
     .bg_img_03.mb-5
@@ -64,7 +62,7 @@
 
     #TarjetasIngReq
       .row.justify-content-center
-        .col-sm-10.col-xl-3.col-md-6.my-3
+        .col-sm-10.col-xl-4.col-md-6.my-3
           .tarjeta.tarjeta-slide.izquierda.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
             .tarjeta-slide__contenedor
               .tarjeta-slide__img.text-center
@@ -75,7 +73,7 @@
                 h4 Requerimientos de negocio:
                 p Comprenden los objetivos, las metas y resultados esperados que especifiquen por qué la iniciativa de cambio (el proyecto) se está desarrollando. Pueden aplicar a toda una empresa.
 
-        .col-sm-10.col-xl-3.col-md-6.my-3
+        .col-sm-10.col-xl-4.col-md-6.my-3
           .tarjeta.tarjeta-slide.izquierda.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
             .tarjeta-slide__contenedor
               .tarjeta-slide__img
@@ -86,7 +84,7 @@
                 h4 Requerimientos de los interesados:
                 p Son todas las partes que tienen un interés en el proyecto. Pueden estar manifestando las distintas áreas de negocio que utiliza un sistema, otras áreas de negocio de soporte, inclusive, agentes externos como clientes o proveedores.
 
-        .col-sm-10.col-xl-3.col-md-6.my-3
+        .col-sm-10.col-xl-4.col-md-6.my-3
           .tarjeta.tarjeta-slide.izquierda.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
             .tarjeta-slide__contenedor
               .tarjeta-slide__img
@@ -98,7 +96,7 @@
                 p Describen las aptitudes que una solución debe tener. Se expresan en términos de la información que maneja y del comportamiento.
 
       .row.justify-content-center
-        .col-sm-10.col-md-6.col-xl-3.my-3
+        .col-sm-10.col-md-6.col-xl-4.my-3
           .tarjeta.tarjeta-slide.izquierda.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
             .tarjeta-slide__contenedor
               .tarjeta-slide__img
@@ -109,7 +107,7 @@
                 h4 Requerimientos no funcionales:
                 p Describen las condiciones según las cuales la solución debe trabajar para mantenerse efectiva, así como los requerimientos de calidad que debe cumplir.
 
-        .col-sm-10.col-md-6.col-xl-3.my-3
+        .col-sm-10.col-md-6.col-xl-4.my-3
           .tarjeta.tarjeta-slide.izquierda.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
             .tarjeta-slide__contenedor
               .tarjeta-slide__img
