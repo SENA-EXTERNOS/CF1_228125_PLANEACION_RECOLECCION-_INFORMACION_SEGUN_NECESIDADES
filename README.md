@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/CF1_228125_PLANEACION_RECOLECCION-_INFORMACION_SEGUN_NECESIDADES/](https://sena-externos.github.io/CF1_228125_PLANEACION_RECOLECCION-_INFORMACION_SEGUN_NECESIDADES/)
 
 #
 
