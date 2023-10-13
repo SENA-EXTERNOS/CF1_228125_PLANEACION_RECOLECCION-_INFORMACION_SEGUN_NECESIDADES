@@ -71,7 +71,7 @@
                 h4.mt-4.text-center.px-4 Requerimientos de negocio
               .tarjeta-slide__contenido.p-4.p-xl-5
                 h4 Requerimientos de negocio:
-                p Comprenden los objetivos, las metas y resultados esperados que especifiquen por qué la iniciativa de cambio (el proyecto) se está desarrollando. Pueden aplicar a toda una empresa.
+                p Comprenden los objetivos, las metas y resultados esperados que especifiquen porqué la iniciativa de cambio (el proyecto) se está desarrollando. Pueden aplicar a toda una empresa.
 
         .col-sm-10.col-xl-4.col-md-6.my-3
           .tarjeta.tarjeta-slide.izquierda.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")

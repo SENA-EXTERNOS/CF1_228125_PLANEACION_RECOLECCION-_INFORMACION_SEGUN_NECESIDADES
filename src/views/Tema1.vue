@@ -93,9 +93,9 @@
       .col-lg-7
         .cajon.color-acento-botones.p-4.mb-4
           p Se refiere a un conjunto ordenado de mecanismos que poseen el propósito fundamental de coordinar los datos y la información que se tiene, de forma que estos puedan utilizarse, enviarse y procesarse eficazmente, de manera fácil.
-          p Por supuesto, como son sistemas de información, también se refieren a un conjunto de recursos de importancia que se conectan entre sí para poder obtener la interacción que se requiere entre estos.
+          p.mb-0 Por supuesto, como son sistemas de información, también se refieren a un conjunto de recursos de importancia que se conectan entre sí para poder obtener la interacción que se requiere entre estos.
         p Los sistemas de información están compuestos por unos recursos, unos elementos y, desde el punto de vista empresarial, una clasificación (tipos). A continuación, se amplía la información acerca de cada uno de ellos:
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Recursos, tipos y elementos de un sistema de información.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Recursos_tipos_y_elementos_de_un_sistema_de_informacion.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
